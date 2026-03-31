@@ -46,19 +46,23 @@ Turn a build moment into a post worth sharing. Shipped something, hit a mileston
 
 ## Premium Plugins
 
-> Premium plugins are complete systems — multiple skills working together as one workflow.
+> Included with a paid [Build to Launch](https://buildtolaunch.substack.com) subscription. Install the plugin, run `/btl-unlock`, enter your subscriber email — done.
 
 ### [Newsletter Engine](./plugins/newsletter-engine)
 Full newsletter production: research → draft → humanize → SEO → publish to Substack.
 
-**[Get access →](https://buildtolaunch.gumroad.com/l/newsletter-engine)**
+**Skills:** `/research-digest` `/article-draft` `/notes-generate` `/seo-check` `/publish-substack`
+
+**[Subscribe to unlock →](https://buildtolaunch.substack.com)**
 
 ---
 
 ### [AI Builder Toolkit](./plugins/ai-builder-toolkit)
 Content system for AI builders publishing in public. Mon/Wed/Fri cadence, content pillars, cross-platform distribution.
 
-**[Get access →](https://buildtolaunch.gumroad.com/l/ai-builder-toolkit)**
+**Skills:** `/weekly-plan` `/build-in-public` `/content-pillars` `/distribute`
+
+**[Subscribe to unlock →](https://buildtolaunch.substack.com)**
 
 ---
 
@@ -76,10 +80,10 @@ Then install any plugin from the marketplace UI. Free plugins are available imme
 
 ## Plugin Tiers
 
-| Tier | What's included | Price |
+| Tier | What's included | Access |
 |---|---|---|
 | Free | Single-purpose skills, zero config or one-time setup | Free forever |
-| Premium | Multi-skill systems, full end-to-end workflows | One-time on Gumroad |
+| Premium | Multi-skill systems, full end-to-end workflows | Paid Build to Launch subscription |
 
 ---
 
