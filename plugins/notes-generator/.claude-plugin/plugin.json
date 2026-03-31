@@ -1,0 +1,8 @@
+{
+  "name": "notes-generator",
+  "version": "1.0.0",
+  "description": "Turn any article into 3–5 ready-to-post Substack notes. Uses a formula system based on content type — diagnostic, how-to, story, contrarian, and more.",
+  "author": {
+    "name": "Build to Launch"
+  }
+}

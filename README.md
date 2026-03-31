@@ -14,34 +14,42 @@ Remove AI phrasing from any content. Zero config — works on blog posts, emails
 
 **Skills:** `/humanize`
 
-**Install:**
-```
-# Copy the skills folder into your Claude Code project
-plugins/humanizer/skills/ → .claude/skills/
-```
-
 ---
 
 ### [Brand Voice Enforcer](./plugins/brand-voice)
-Define your brand voice rules once. Enforce them on every piece of content — forever.
+Define your brand voice rules once. Enforce them on every piece of content.
 
 **Skills:** `/brand-voice-setup` `/brand-voice-check`
 
-**Install:**
-```
-plugins/brand-voice/skills/ → .claude/skills/
-```
+---
+
+### [Research Digest](./plugins/research-digest)
+Weekly content research engine. Define your topics, run it weekly — get a ranked list of what to write next, sourced from Reddit, Hacker News, and the web.
+
+**Skills:** `/research-setup` `/research-digest`
+
+---
+
+### [Notes Generator](./plugins/notes-generator)
+Turn any article into 3–5 ready-to-post Substack notes. Uses a content-type formula system — diagnostic, story, how-to, contrarian, observation — so each note takes a different angle.
+
+**Skills:** `/notes-setup` `/notes-generate`
+
+---
+
+### [Build in Public](./plugins/build-in-public)
+Turn a build moment into a post worth sharing. Shipped something, hit a milestone, made a decision, learned the hard way — any of these becomes a ready-to-post piece.
+
+**Skills:** `/build-in-public-setup` `/build-in-public`
 
 ---
 
 ## Premium Plugins
 
-> Premium plugins ship as complete systems — multiple skills working together as one workflow. [Why systems, not tools →](https://buildtolaunch.com)
+> Premium plugins are complete systems — multiple skills working together as one workflow.
 
 ### [Newsletter Engine](./plugins/newsletter-engine)
-Full newsletter production system. Research → draft → humanize → SEO → publish to Substack.
-
-**Skills:** `/research-digest` `/article-draft` `/notes-generate` `/seo-check` `/publish-substack`
+Full newsletter production: research → draft → humanize → SEO → publish to Substack.
 
 **[Get access →](https://buildtolaunch.gumroad.com/l/newsletter-engine)**
 
@@ -50,24 +58,19 @@ Full newsletter production system. Research → draft → humanize → SEO → p
 ### [AI Builder Toolkit](./plugins/ai-builder-toolkit)
 Content system for AI builders publishing in public. Mon/Wed/Fri cadence, content pillars, cross-platform distribution.
 
-**Skills:** `/weekly-plan` `/build-in-public` `/content-pillars` `/distribute`
-
 **[Get access →](https://buildtolaunch.gumroad.com/l/ai-builder-toolkit)**
 
 ---
 
-## How to Install a Free Plugin
+## How to Install
 
-1. Find the plugin folder above
-2. Copy the `skills/` contents into your project's `.claude/skills/` directory
-3. The skills are immediately available as slash commands in Claude Code
+Add this marketplace in Claude Code:
 
-```bash
-# Example: installing the Humanizer
-cp -r plugins/humanizer/skills/* /your-project/.claude/skills/
+```
+https://github.com/Build-to-Launch/build-to-launch-plugins
 ```
 
-That's it. No server setup, no API keys, no config.
+Then install any plugin from the marketplace UI. Free plugins are available immediately — no account needed.
 
 ---
 
@@ -75,8 +78,8 @@ That's it. No server setup, no API keys, no config.
 
 | Tier | What's included | Price |
 |---|---|---|
-| Free | Single-purpose skills, zero config | Free forever |
-| Premium | Multi-skill systems, full workflows | One-time on Gumroad |
+| Free | Single-purpose skills, zero config or one-time setup | Free forever |
+| Premium | Multi-skill systems, full end-to-end workflows | One-time on Gumroad |
 
 ---
 

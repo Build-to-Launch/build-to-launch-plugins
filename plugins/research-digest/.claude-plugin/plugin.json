@@ -1,0 +1,8 @@
+{
+  "name": "research-digest",
+  "version": "1.0.0",
+  "description": "Weekly content research engine. Searches Reddit, Hacker News, and the web for your topics, scores opportunities, and outputs a ranked digest of what to write next.",
+  "author": {
+    "name": "Build to Launch"
+  }
+}

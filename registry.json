@@ -10,21 +10,44 @@
       "version": "1.0.0",
       "description": "Remove AI phrasing from any content. Zero config — works on any text.",
       "tier": "free",
-      "type": "skill-only",
       "skills": ["humanize"],
-      "path": "plugins/humanizer",
-      "install": "https://github.com/Build-to-Launch/build-to-launch-plugins/tree/main/plugins/humanizer"
+      "path": "plugins/humanizer"
     },
     {
       "name": "Build to Launch: Brand Voice Enforcer",
       "id": "brand-voice",
       "version": "1.0.0",
-      "description": "Define and enforce your own brand voice rules. Catches banned phrases, weak openers, and off-brand patterns.",
+      "description": "Define and enforce your own brand voice rules.",
       "tier": "free",
-      "type": "skill-only",
       "skills": ["brand-voice-setup", "brand-voice-check"],
-      "path": "plugins/brand-voice",
-      "install": "https://github.com/Build-to-Launch/build-to-launch-plugins/tree/main/plugins/brand-voice"
+      "path": "plugins/brand-voice"
+    },
+    {
+      "name": "Build to Launch: Research Digest",
+      "id": "research-digest",
+      "version": "1.0.0",
+      "description": "Weekly content research engine. Scores what to write next from Reddit, HN, and the web.",
+      "tier": "free",
+      "skills": ["research-setup", "research-digest"],
+      "path": "plugins/research-digest"
+    },
+    {
+      "name": "Build to Launch: Notes Generator",
+      "id": "notes-generator",
+      "version": "1.0.0",
+      "description": "Turn any article into 3–5 ready-to-post Substack notes.",
+      "tier": "free",
+      "skills": ["notes-setup", "notes-generate"],
+      "path": "plugins/notes-generator"
+    },
+    {
+      "name": "Build to Launch: Build in Public",
+      "id": "build-in-public",
+      "version": "1.0.0",
+      "description": "Turn a build update, lesson, or shipping moment into a ready-to-post piece.",
+      "tier": "free",
+      "skills": ["build-in-public-setup", "build-in-public"],
+      "path": "plugins/build-in-public"
     },
     {
       "name": "Build to Launch: Newsletter Engine",
@@ -32,21 +55,17 @@
       "version": "1.0.0",
       "description": "Full newsletter production system — research, draft, humanize, SEO, publish to Substack.",
       "tier": "premium",
-      "type": "skill-only",
-      "skills": ["research-digest", "article-draft", "notes-generate", "seo-check", "publish-substack"],
-      "path": "plugins/newsletter-engine",
-      "purchase_url": "https://buildtolaunch.gumroad.com/l/newsletter-engine"
+      "purchase_url": "https://buildtolaunch.gumroad.com/l/newsletter-engine",
+      "path": "plugins/newsletter-engine"
     },
     {
       "name": "Build to Launch: AI Builder Toolkit",
       "id": "ai-builder-toolkit",
       "version": "1.0.0",
-      "description": "Complete content system for AI builders publishing in public. Weekly cadence, content pillars, distribution.",
+      "description": "Complete content system for AI builders publishing in public.",
       "tier": "premium",
-      "type": "skill-only",
-      "skills": ["weekly-plan", "build-in-public", "content-pillars", "distribute"],
-      "path": "plugins/ai-builder-toolkit",
-      "purchase_url": "https://buildtolaunch.gumroad.com/l/ai-builder-toolkit"
+      "purchase_url": "https://buildtolaunch.gumroad.com/l/ai-builder-toolkit",
+      "path": "plugins/ai-builder-toolkit"
     }
   ]
 }

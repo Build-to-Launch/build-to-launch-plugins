@@ -15,6 +15,24 @@
       "version": "1.0.0"
     },
     {
+      "name": "research-digest",
+      "source": "./plugins/research-digest",
+      "description": "Weekly content research engine. Searches Reddit, HN, and the web for your topics and scores what to write next.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "notes-generator",
+      "source": "./plugins/notes-generator",
+      "description": "Turn any article into 3–5 ready-to-post Substack notes using a content-type formula system.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "build-in-public",
+      "source": "./plugins/build-in-public",
+      "description": "Turn a build update, lesson, or shipping moment into a ready-to-post piece.",
+      "version": "1.0.0"
+    },
+    {
       "name": "newsletter-engine",
       "source": "./plugins/newsletter-engine",
       "description": "Full newsletter production system — research, draft, humanize, SEO, publish to Substack. Premium.",
