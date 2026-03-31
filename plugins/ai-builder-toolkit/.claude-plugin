@@ -1,0 +1,11 @@
+{
+  "name": "Build to Launch: AI Builder Toolkit",
+  "id": "ai-builder-toolkit",
+  "version": "1.0.0",
+  "description": "Complete content system for AI builders publishing in public. Covers weekly cadence, content pillars, and distribution.",
+  "tier": "premium",
+  "type": "skill-only",
+  "author": "Build to Launch",
+  "purchase_url": "https://buildtolaunch.gumroad.com/l/ai-builder-toolkit",
+  "skills": ["weekly-plan", "build-in-public", "content-pillars", "distribute"]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Build to Launch: Humanizer",
+    "id": "humanizer",
+    "path": "plugins/humanizer",
+    "version": "1.0.0",
+    "description": "Remove AI phrasing from any content. Zero config — works on any text.",
+    "tier": "free",
+    "type": "skill-only",
+    "author": "Build to Launch",
+    "url": "https://github.com/Build-to-Launch/build-to-launch-plugins"
+  },
+  {
+    "name": "Build to Launch: Brand Voice Enforcer",
+    "id": "brand-voice",
+    "path": "plugins/brand-voice",
+    "version": "1.0.0",
+    "description": "Define and enforce your own brand voice rules. Catches banned phrases, weak openers, and off-brand patterns.",
+    "tier": "free",
+    "type": "skill-only",
+    "author": "Build to Launch",
+    "url": "https://github.com/Build-to-Launch/build-to-launch-plugins"
+  },
+  {
+    "name": "Build to Launch: Newsletter Engine",
+    "id": "newsletter-engine",
+    "path": "plugins/newsletter-engine",
+    "version": "1.0.0",
+    "description": "Full newsletter production system — research, draft, humanize, SEO, publish to Substack. Built for AI builders.",
+    "tier": "premium",
+    "type": "skill-only",
+    "author": "Build to Launch",
+    "url": "https://buildtolaunch.gumroad.com/l/newsletter-engine"
+  },
+  {
+    "name": "Build to Launch: AI Builder Toolkit",
+    "id": "ai-builder-toolkit",
+    "path": "plugins/ai-builder-toolkit",
+    "version": "1.0.0",
+    "description": "Complete content system for AI builders publishing in public. Covers weekly cadence, content pillars, and distribution.",
+    "tier": "premium",
+    "type": "skill-only",
+    "author": "Build to Launch",
+    "url": "https://buildtolaunch.gumroad.com/l/ai-builder-toolkit"
+  }
+]

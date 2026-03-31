@@ -1,0 +1,52 @@
+{
+  "publisher": "Build to Launch",
+  "publisher_url": "https://buildtolaunch.com",
+  "github": "https://github.com/Build-to-Launch/build-to-launch-plugins",
+  "updated": "2026-03-31",
+  "plugins": [
+    {
+      "name": "Build to Launch: Humanizer",
+      "id": "humanizer",
+      "version": "1.0.0",
+      "description": "Remove AI phrasing from any content. Zero config — works on any text.",
+      "tier": "free",
+      "type": "skill-only",
+      "skills": ["humanize"],
+      "path": "plugins/humanizer",
+      "install": "https://github.com/Build-to-Launch/build-to-launch-plugins/tree/main/plugins/humanizer"
+    },
+    {
+      "name": "Build to Launch: Brand Voice Enforcer",
+      "id": "brand-voice",
+      "version": "1.0.0",
+      "description": "Define and enforce your own brand voice rules. Catches banned phrases, weak openers, and off-brand patterns.",
+      "tier": "free",
+      "type": "skill-only",
+      "skills": ["brand-voice-setup", "brand-voice-check"],
+      "path": "plugins/brand-voice",
+      "install": "https://github.com/Build-to-Launch/build-to-launch-plugins/tree/main/plugins/brand-voice"
+    },
+    {
+      "name": "Build to Launch: Newsletter Engine",
+      "id": "newsletter-engine",
+      "version": "1.0.0",
+      "description": "Full newsletter production system — research, draft, humanize, SEO, publish to Substack.",
+      "tier": "premium",
+      "type": "skill-only",
+      "skills": ["research-digest", "article-draft", "notes-generate", "seo-check", "publish-substack"],
+      "path": "plugins/newsletter-engine",
+      "purchase_url": "https://buildtolaunch.gumroad.com/l/newsletter-engine"
+    },
+    {
+      "name": "Build to Launch: AI Builder Toolkit",
+      "id": "ai-builder-toolkit",
+      "version": "1.0.0",
+      "description": "Complete content system for AI builders publishing in public. Weekly cadence, content pillars, distribution.",
+      "tier": "premium",
+      "type": "skill-only",
+      "skills": ["weekly-plan", "build-in-public", "content-pillars", "distribute"],
+      "path": "plugins/ai-builder-toolkit",
+      "purchase_url": "https://buildtolaunch.gumroad.com/l/ai-builder-toolkit"
+    }
+  ]
+}
