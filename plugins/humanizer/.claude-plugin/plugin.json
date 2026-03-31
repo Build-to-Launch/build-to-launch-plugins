@@ -1,0 +1,8 @@
+{
+  "name": "humanizer",
+  "version": "1.0.0",
+  "description": "Remove AI phrasing from any content. Zero config — works on blog posts, emails, captions, notes.",
+  "author": {
+    "name": "Build to Launch"
+  }
+}

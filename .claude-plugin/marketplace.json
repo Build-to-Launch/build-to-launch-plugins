@@ -1,0 +1,30 @@
+{
+  "name": "build-to-launch-plugins",
+  "owner": { "name": "Build to Launch" },
+  "plugins": [
+    {
+      "name": "humanizer",
+      "source": "./plugins/humanizer",
+      "description": "Remove AI phrasing from any content. Zero config — works on any text.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "brand-voice",
+      "source": "./plugins/brand-voice",
+      "description": "Define and enforce your own brand voice rules. Catches banned phrases, weak openers, and off-brand patterns.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "newsletter-engine",
+      "source": "./plugins/newsletter-engine",
+      "description": "Full newsletter production system — research, draft, humanize, SEO, publish to Substack. Premium.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ai-builder-toolkit",
+      "source": "./plugins/ai-builder-toolkit",
+      "description": "Complete content system for AI builders publishing in public. Weekly cadence, content pillars, distribution. Premium.",
+      "version": "1.0.0"
+    }
+  ]
+}

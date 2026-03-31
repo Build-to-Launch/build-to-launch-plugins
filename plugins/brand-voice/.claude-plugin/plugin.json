@@ -1,0 +1,8 @@
+{
+  "name": "brand-voice",
+  "version": "1.0.0",
+  "description": "Define and enforce your own brand voice rules. Catches banned phrases, weak openers, and off-brand patterns.",
+  "author": {
+    "name": "Build to Launch"
+  }
+}
